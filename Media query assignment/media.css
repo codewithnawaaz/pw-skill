@@ -1,0 +1,203 @@
+/* *********media query above  */
+@media screen and (max-width: 850px) {
+     
+    /* navigation  */
+    .header{
+        padding: 5rem 3;
+    }
+    .main-nav-list{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+     
+    }
+    /* ***************** */
+
+/* hero part */
+
+
+.container{
+    background-image: url(./assets/stethoscope.png);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    padding:2rem 0;
+}
+
+.hero-text{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: .2;
+    
+}
+.hero-description{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    opacity: 0.9;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.bottam-angle-box{
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: center;
+}
+.btn{
+    
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    font-weight: 400;
+    color:white;
+    background-color: rgb(121, 205, 121);
+    margin-right: 1.7rem;
+}
+.btn:hover{
+    color: rgb(229, 244, 229);
+    background-color:rgb(113, 139, 102);
+    font-size: 1.2;
+}
+
+
+
+    .hero{
+        display: grid;
+       grid-template-columns:1fr;
+        margin: 0 auto;
+        max-width: 100rem;
+        padding: 0rem 4rem;
+    
+    }
+
+    .right-hero{
+        margin-top:17rem ;
+        position: relative;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .hero-img{
+        
+        position: absolute;
+        width: 70%;
+    }
+    .green-Box{
+        position: absolute;
+        width:70%;
+    }
+    .yellow-Box{
+    right: 5.2rem;
+        width: 60%;
+        position: absolute;
+    }
+
+
+}
+        
+
+
+
+  @media screen and (max-width: 500px) {
+     
+    /* navigation  */
+    .header{
+        padding:1rem .5rem;
+
+    }
+    .main-nav-list{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    /* ***************** */
+
+/* hero part */
+
+
+.container{
+    background-image: url(./assets/stethoscope.png);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    padding:1rem 0;
+}
+
+.hero-text{
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: .1;
+    padding: 0;
+    /* width: 18rem; */
+    
+}
+.left-hero{
+    width: 100%;
+}
+
+.angel{
+   margin-left: rem; 
+}
+.hero-description{
+    font-size: 1.1rem;
+    color: #333;
+    opacity: 0.9;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    font-size: .9rem;
+    padding: .2rem .4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 400;
+    color:white;
+    background-color: rgb(121, 205, 121);
+}
+.btn:hover{
+    color: rgb(229, 244, 229);
+    background-color:rgb(113, 139, 102);
+    font-size: 1.2;
+}
+
+
+    .hero{
+        display: grid;
+       grid-template-columns: 1fr;
+  
+        max-width: 130rem;
+        padding: 0rem 1rem;
+    
+    }
+
+    .right-hero{
+        margin-top:10rem ;
+        position: relative;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .hero-img{
+        
+        position: absolute;
+        width: 80%;
+    }
+    .green-Box{
+        position: absolute;
+        width: 80%;
+    }
+    .yellow-Box{
+    right: 2rem;
+        width: 60%;
+        position: absolute;
+    }
+
+
+}
+        

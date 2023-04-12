@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css of navbar */
+#navbar{
+    height: 15vh;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.logo{
+    padding: 1.1rem;
+    /* background-color: yellow; */
+    margin-left: 6.1rem;
+}
+.logo img{
+    width: 8vw;
+}
+#navbar ul{
+    display: flex;
+    gap: 44px;
+    margin-left: 56px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+#navbar ul li a{
+    color: black;
+  text-decoration: none;
+padding: 5px 10px;
+}
+.btn{
+    margin-left: 28vw;
+    padding:7px 10px;
+    font-size: 1rem;
+    border:  2px solid #5955;
+    background-color: #5955b3;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    color: #5955b3;
+    background-color: #fff;
+}
+ /* css of main box of body */
+
+ .hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80rem;
+    /* background-color:red; */
+    margin: 0 auto;
+}
+.leftText{
+    margin-top: 11rem;
+}
+
+ .leftText h1{
+    font-size: 3.5rem;
+    
+ }
+ 
+ .leftText h1 span{
+    font-size: 3.5rem;
+    color: #5955b3;
+    
+ }
+ 
+ .leftText p{
+    font-size: 1.1rem;
+    color: rgb(71, 70, 70);
+   
+    
+ }
+ .leftText .btn1{
+    margin: 30px 0px;
+    padding:7px 10px;
+    font-size: 1rem;
+    border:  2px solid #5955;
+    background-color: #5955b3;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+
+ }
+
+
+ .rightSection img{
+    width:100%;
+  
+    
+    
+ }

@@ -1,0 +1,84 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+}
+/* navbar logo and ul li css */
+.navbar{
+   display: flex;
+
+}
+.logo{
+    margin: 40px;
+}
+.logo img{
+    padding-left:70px;
+}
+ul{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 20px;
+    padding: 6px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    background-color:#f9f5ed; ;
+}
+
+ul li a:hover{
+    background-color: rgb(120, 89, 89);
+    color: #f9f5ed;
+    border: 1 px solid rgb(120, 89, 89);
+    border-radius: 10px;
+}
+
+main{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftSection{
+    margin-left: 120px;
+}
+.leftSection h1{ 
+    font-size: 50px;
+  padding: 10px;
+}
+.leftSection p{ 
+    font-size: 20px;
+  padding: 10px;
+}
+.btn{
+    margin-left:10px ;
+    padding: 5px 10px;
+    background-color:rgb(120, 89, 89);
+    font-size: 15px;
+    color: #f9f5ed;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rightSection{
+    margin-right: 100px;
+    
+}
+.firstImage{
+    width: ;
+}
+
+
+
+
+
+
+

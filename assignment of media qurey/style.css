@@ -1,0 +1,158 @@
+/* content which is provided by the client  */
+/*   background-color: #111827;
+   -----for  home option-----
+  background: rgb(100, 100, 224); 
+ ----- itro line color-----
+   color: rgb(197, 197, 89);
+}*/
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+  
+  }
+  .hero-container{
+    padding: 3.2rem 0;
+    /* background-color: red; */
+  
+  }
+ 
+  .hero-box{ 
+    max-width: 80rem;
+    margin: 0 3rem 0 0;
+    color: white;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+  }
+  .hero-image{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .hero-img{
+  width: 70%;
+  }
+  .hero-text{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+ 
+  }
+  .hero-description{
+    color: rgb(197, 197, 89);
+  }
+  /* headerand nav */
+  .header{
+  
+   padding: 2rem;
+   
+  
+  }
+  .main-nav-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    list-style: none;
+  }
+  
+ 
+  .main-nav-link:link,
+  .main-nav-link:visited{
+    padding:.5rem .75rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 1rem;
+  }
+  
+  
+  .main-nav-link:hover,
+  .main-nav-link:active{
+    transition: all 1s;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(145, 133, 133);
+  }
+ 
+  .nav-cta{
+    background-color:rgb(152, 90, 90);;
+  }
+
+  /* section how */
+  .section-how{
+    padding: 3rem 0;
+  }
+  
+  .heading-secondary{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .section-how-to{
+
+    display: grid;
+    max-width: 60rem;
+    margin: 0 auto;
+    grid-template-columns:repeat(2,2fr);
+    padding: 2rem 2rem;
+    /* gap: 1rem; */
+
+  
+  }
+  .section-image{
+  
+    display: flex;
+  justify-content:center;
+    align-items: center;
+  }
+  .section-img{
+    width: 80%;
+  }
+  .img-description{
+    text-align: center;
+    color: white;
+  }
+  /* footer */
+
+  .nav-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+  }
+  .footer-img{
+    width:2rem;
+    margin: 0 .5rem;
+  }
+  @media screen and (max-width: 480px) {
+    .hero-box{ 
+      max-width: 80rem;
+    margin: 0 auto;
+      color: white;
+      display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     /* gap: 2rem; */
+    }
+    .hero-text{
+      padding-bottom: 2rem;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+  }
+
+  .hero-image{
+    display: flex;
+    justify-content:center;
+
+  }
+  .section-how-to{
+
+    display: grid;
+    max-width: 60rem;
+    margin: 0 auto;
+    grid-template-columns:repeat(1,2fr);
+    padding: 2rem 2rem;
+    /* gap: 1rem; */
+  }
+}
